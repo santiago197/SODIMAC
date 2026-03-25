@@ -5,32 +5,117 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Prueba Técnica – Frontend React + Next.js con enfoque en SEO 
 
-## Learn More
+ 
 
-To learn more about Next.js, take a look at the following resources:
+Objetivo de la prueba 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Construir una aplicación frontend en Next.js que demuestre: 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Correcto uso de rendering orientado a SEO (SSR) 
+Buen manejo de metadata dinámica 
+Optimización de performance y Core Web Vitals 
+Estructura de proyecto clara y escalable 
+Buen criterio técnico en decisiones relacionadas con SEO  
+Contexto del ejercicio 
 
-## Deploy on Vercel
+Una empresa de contenido quiere lanzar un sitio de artículos informativos orientado a tráfico orgánico desde Google. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+El sitio tendrá: 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Un listado de artículos 
+Una página de detalle por artículo 
+Contenido 100% público (sin autenticación) 
+El SEO es crítico para el negocio.  
+
+ 
+
+Requisitos técnicos 
+
+1. Stack obligatorio (CLAVE) 
+
+Next.js (App Router o Pages Router) 
+React 
+TypeScript (deseable, no obligatorio)  
+2. Páginas requeridas (CLAVE) 
+
+a) Home / Listado de artículos 
+
+Debe incluir: 
+
+Listado de artículos (mínimo 5, pueden ser mock data) 
+Título SEO (<title>) y meta description 
+URLs amigables (ej: /articulos/seo-en-nextjs) 
+Debe: 
+
+Ser SSR
+Ser completamente indexable 
+ b) Página de detalle de artículo 
+
+Debe incluir: 
+
+Título del artículo como h1 
+Contenido del artículo 
+Metadata dinámica (title y description basados en el contenido) 
+URL semántica basada en slug 
+Debe: 
+
+Ser SSR 
+Renderizar el contenido en servidor 
+ 3. SEO técnico (CLAVE) 
+
+La aplicación debe incluir: 
+
+Metadata dinámica por página 
+Uso correcto de encabezados (h1, h2, etc.) 
+HTML semántico 
+Manejo correcto de páginas 404 
+ 4. Performance (CLAVE) 
+
+Debe demostrarse: 
+
+Uso de next/image para imágenes 
+Carga eficiente del contenido 
+ 5. Accesibilidad (CLAVE) 
+
+Uso de HTML semántico 
+Imágenes con alt 
+Botones y links accesibles 
+ Requisitos deseables (PLUS) 
+
+(No obligatorios, pero suman puntos) 
+
+Uso de generateMetadata (App Router) 
+Implementación de robots.txt 
+Datos estructurados (JSON-LD) 
+Paginación SEO-friendly 
+Datos 
+
+Los artículos pueden: 
+
+Ser mock data local 
+O venir de un archivo JSON 
+Ejemplo: 
+
+id 
+title 
+slug 
+description 
+content 
+No se evalúa diseño visual avanzado. 
+
+Entregables 
+
+Repositorio Git (GitHub, GitLab, etc.) 
+README que incluya: 
+Cómo correr el proyecto 
+Decisiones técnicas tomadas 
+Estrategia de rendering (SSR) 
+Consideraciones SEO 
