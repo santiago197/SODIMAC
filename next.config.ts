@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["media.falabella.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "media.falabella.com",
+        port: "",
+        pathname: "/sodimacCO/**",
+        search: "",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
