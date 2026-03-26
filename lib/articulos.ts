@@ -8,3 +8,7 @@ export function obtenerArticulos(limit?: number):Articulo[] {
     }
     return articulos
 }
+export function obtenerArticulosPorSlug(slug: string) {
+    const articulos = data as Articulo[];
+    return articulos.find(articulo => articulo.slug === slug);
+}
