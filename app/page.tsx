@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         ...openGraphBase,
         title: "Artículos de SODIMAC",
         description: "Bienvenido a la plataforma de artículos de SODIMAC",
-        url: "/articulos",
+        url: "/",
     }
 }
 export default function Home() {
