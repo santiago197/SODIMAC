@@ -1,25 +1,18 @@
 import CardArticulo from "@/components/articulos/card-articulo";
 import { obtenerArticulos } from "@/lib/articulos";
+import { openGraphBase } from "@/lib/metadata";
 import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "SODIMAC - Artículos para el hogar",
-  description: "Bienvenido a la plataforma de artículos de SODIMAC",
-
-  openGraph: {
-    title: "Inicio - SODIMAC Artículos",
+    title: "Artículos de SODIMAC",
     description: "Bienvenido a la plataforma de artículos de SODIMAC",
-    url: "/",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "SODIMAC Artículos"
-      }
-    ]
-  }
+    openGraph: {
+        ...openGraphBase,
+        title: "Artículos de SODIMAC",
+        description: "Bienvenido a la plataforma de artículos de SODIMAC",
+        url: "/articulos",
+    }
 }
 export default function Home() {
   const articulos = obtenerArticulos(3);
