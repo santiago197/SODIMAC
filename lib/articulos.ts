@@ -1,0 +1,10 @@
+import data from "./data.json";
+import { Articulo } from "@/interface/articulos";
+
+export function obtenerArticulos(limit?: number):Articulo[] {
+    const articulos = data as Articulo[];
+    if (limit) {
+        return articulos.slice(0, limit);
+    }
+    return articulos
+}
