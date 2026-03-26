@@ -1,10 +1,36 @@
+import Link from "next/link";
 
 
 export default function NotFound() {
   return (
-    <div>
-        <h1>Not found</h1>
-        <p>Lo sentimos, el producto que buscas no existe.</p>
-    </div>
-  )
+    <main className="flex min-h-[60vh] items-center justify-center px-4 py-12">
+      <section className="max-w-md text-center">
+        <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 text-sm font-semibold text-gray-700">
+          404
+        </div>
+
+        <h1 className="text-xl font-semibold text-gray-900">
+          Articulo no encontrado
+        </h1>
+        <p className="mt-2 text-sm text-gray-600">
+          Lo sentimos, el articulo que buscas no existe o ya no está disponible.
+        </p>
+
+        <div className="mt-6 flex flex-wrap justify-center gap-3 text-sm">
+          <Link
+            href="/articulos"
+            className="inline-flex items-center rounded-full bg-blue-700 px-5 py-2 font-semibold text-white shadow-sm transition-colors hover:bg-blue-800"
+          >
+            Ver otros artículos
+          </Link>
+          <Link
+            href="/"
+            className="inline-flex items-center rounded-full border border-gray-300 px-5 py-2 font-medium text-gray-700 transition-colors hover:bg-gray-100"
+          >
+            Volver al inicio
+          </Link>
+        </div>
+      </section>
+    </main>
+  );
 }

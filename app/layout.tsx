@@ -49,6 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    
     <html lang="es">
       <body className="min-h-full flex flex-col">
         <TopMenu />

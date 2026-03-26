@@ -10,7 +10,7 @@ type Props = {
     }
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const articulo = obtenerArticulosPorSlug(params.slug);
+    const articulo = await obtenerArticulosPorSlug(params.slug);
 
     if (!articulo) {
         return {}
@@ -42,12 +42,12 @@ export default async function ArticuloDetailPage({
 }) {
     const { slug } = await params
     const articulo = obtenerArticulosPorSlug(slug);
-    if(!articulo) {
+    if (!articulo) {
         notFound();
     }
-    return <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
-        <article>
+    return (
+        <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
             <DetailArticulo articulo={articulo} />
-        </article>
-    </main>;
+        </main>
+    );
 }
