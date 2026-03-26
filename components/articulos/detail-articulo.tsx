@@ -1,12 +1,12 @@
-import { Product } from "@/interface/articulos";
+
+import { Articulo } from "@/interface/articulos";
 import Image from "next/image";
 
-export default function DetailProduct({ title,description,price , content,thumbnail }: Product) {
-    return <main>
-        <h1>{title}</h1>
+export default function DetailArticulo({ title, description, thumbnail }: Articulo) {
+    return <section>
+        <Image src={thumbnail.url} alt={thumbnail.alt} width={500} height={500} />
+        <h2>{title}</h2>
         <p>{description}</p>
-        <p>Precio: ${price.toFixed(2)}</p>
-        <Image src={thumbnail} alt={title} width={300} height={300} />
-        <p>{content}</p>
-    </main>;
+        <button>Ver más detalles</button>
+    </section>
 }
