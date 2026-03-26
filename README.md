@@ -119,3 +119,11 @@ Cómo correr el proyecto
 Decisiones técnicas tomadas 
 Estrategia de rendering (SSR) 
 Consideraciones SEO 
+
+
+* Cómo correr el proyecto 
+* Decisiones técnicas tomadas 
+    - Aunque lo correcto para el ejercicio seria usar SSG, utilizamos SSR por que puede ser escalable, en el momento
+    consultamos un mock, pero al momento de integrar el fetch a un api se van a necesitar renderizar los articulos del lado del  servidor.
+* Estrategia de rendering (SSR) 
+* Consideraciones SEO 

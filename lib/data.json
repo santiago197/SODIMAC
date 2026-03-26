@@ -4,9 +4,13 @@
         "title": "Kit de corte Remington para barba, bigote, nariz y oídos",
         "slug": "kit-corte-remington",
         "description": "Kit de corte profesional para el cuidado personal. Incluye cuchillas reemplazables y un diseño ergonómico para un uso cómodo.",
-        "price": 169.900,
         "content": "¡Dale un toque de estilo a tu rutina con el Kit de corte Remington para barba, bigote, nariz y oídos PG6855A-110F! Este kit todo en uno es perfecto para mantener tu imagen impecable. Con su diseño resistente y versátil, podrás controlar tu estilo con facilidad y precisión.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/601669/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/601669/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Kit de corte Remington para barba, bigote, nariz y oídos"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 2,
@@ -15,7 +19,12 @@
         "description": "Siente la comodidad de esta silla reclinable. Con un diseño ergonómico y un ajuste cómodo, es perfecta para cualquier ocasión.",
         "price": 999.900,
         "content": "Las sillas Reclinables son muebles diseñados para tu comodidad. Su estructura es resistente y comoda, algunos cuentan con descansapies, con un solo click estarás reclinado en una posición de descanso. Sus materiales son fáciles de limpiar, su estilo y diseño son adaptables a espacios reducidos. Elige entre 1, 2 o 3 espacios la silla que mejor se ajuste a tu espacio y disfruta.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/345041/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/345041/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Silla Reclinable 1 Puesto Confort"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 3,
@@ -24,69 +33,102 @@
         "description": "4 Platos cena 26 cm de diámetro 4 Platos aperitivo 17 cm de diámetro 4 Platos redondos Bowls 15.8 cm de diámetro x 5 cm de alto 532 ml 4 Mugs en ceramica 8 cm de diámetro x 12 cm de alto 325 ml",
         "price": 199.000,
         "content": "Las flores y los corazones de color azul bígaro adornan este juego de vajilla con un color suave como los pétalos. Las enredaderas de encaje de los platos combinan con el cuenco a rayas y la taza sólida, creando elegantes escenarios de cuatro piezas para disfrutar todos los días.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/13164/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/13164/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Juego de Vajilla Corelle 16 Piezas 4 Puestos Country Cottage"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 4,
         "title": "Espejo Piso Zanzíbar 70x170 cm Negro",
         "slug": "espejo-piso-zanzibar",
         "description": "Este espejo de piso, con su estructura de hierro negro y diseño Vintage Moderno, es la pieza perfecta para cualquier espacio.",
-        "price": 699.900,
         "content": "¡Dale un toque de elegancia a tu hogar con el Espejo Piso Zanzíbar! Este espejo de piso, con su estructura de hierro negro y diseño Vintage Moderno, es la pieza perfecta para cualquier espacio. Su tamaño de 70 cm x 170 cm te permite reflejarte de cuerpo entero, aportando amplitud y utilidad al ambiente. ¡No esperes más para transformar tu espacio!",
-        "thumbnail": "https://media.falabella.com/sodimacCO/553194/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/553194/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Espejo Piso Zanzíbar 70x170 cm Negro"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 5,
         "title": "Comedor redondo 4 puestos like 75x80x80cm vienes + 4 sillas blancas",
         "slug": "comedor-redondo-4-puestos",
         "description": "Un comedor redondo para 4 personas, con diseño moderno y acabados de calidad. Incluye 4 sillas blancas.",
-        "price": 999.900,
         "content": "Disfruta momentos inolvidables alrededor de este hermoso combo comedor redondo. Su diseño moderno y acogedor en madera clara crea un ambiente cálido y natural en tu hogar. La mesa, fabricada en melamina de 15 mm con protección antimicrobiana al 99.9%, brinda tranquilidad y estilo a tu espacio. Sus patas metálicas blancas con pintura electrostática y niveladores aportan estabilidad y elegancia. Las 4 sillas, con asiento en polipropileno y patas de madera natural, combinan confort, estética y durabilidad. Perfecto para compartir en familia, con amigos o para darle un toque especial a tus comidas diarias. Fácil de ensamblar.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/561074/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/561074/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Comedor redondo 4 puestos like 75x80x80cm vienes + 4 sillas blancas"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 6,
         "title": "Cortina Elegance Sabina Gris Acero 150x220 Cm Sodimac",
         "slug": "cortina-elegance-sabina-gris-acero-150x220-cm-sodimac",
         "description": "Esta cortina de diseño elegante y material de calidad, es perfecta para añadir un toque de sofisticación a tu hogar.",
-        "price": 239.900,
         "content": "¡Dale un toque de elegancia y funcionalidad a tus espacios con la Cortina Elegance Sabina Gris Acero! Esta cortina enrollable, con sus franjas sólidas y traslúcidas, te permite controlar la luz y la privacidad de manera sencilla. Su diseño moderno y mecanismo a cadena la hacen perfecta para dormitorios, salas, comedores y más.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/750454/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/750454/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Cortina Elegance Sabina Gris Acero 150x220 Cm Sodimac"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 7,
         "title": "Silla Escritorio Ejecutiva Negro ",
         "slug": "silla-escritorio-ejecutiva-negro",
         "description": "Esta silla de escritorio ejecutiva es perfecta para tu espacio de trabajo. Con su diseño elegante y su ajuste cómodo, es ideal para cualquier ocasión.",
-        "price": 339.900,
         "content": "Las sillas para Oficina están pensadas en brindarte comodidad y ergonomía para tus espacios. Cuentan con materiales resistentes y confortables que se adaptan a tus necesidades.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/550390/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/550390/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Silla Escritorio Ejecutiva Negro"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 8,
         "title": "Escritorio Axis 76.5X151X116 Gris",
         "slug": "escritorio-axis-76.5x151x116-gris",
         "description": "Este escritorio es perfecto para tu espacio de trabajo. Con su diseño moderno y su estructura resistente, es ideal para cualquier ocasión.",
-        "price": 339.900,
         "content": "¡Dale un toque de estilo y funcionalidad a tu espacio de trabajo con el Escritorio Axis! Este escritorio rectangular de color Bardolino, con unas dimensiones de 151 x 116 cm, es perfecto para organizar tus libros y objetos decorativos gracias a su puerta batiente y compartimentos. ¡Prepárate para transformar tu área de trabajo!",
-        "thumbnail": "https://media.falabella.com/sodimacCO/440302/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/440302/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Escritorio Axis 76.5X151X116 Gris"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 9,
         "title": "Ventilador Samurai Turbo Silence Maxx 3 en 1, 3 Velocidades, Negro",
         "slug": "ventilador-samurai-turbo-silence-maxx-3-en-1-3-velocidades-negro",
         "description": "Este ventilador es perfecto para tus espacios. Con su diseño moderno y su mecanismo de control, es ideal para cualquier ocasión.",
-        "price": 189.900,
         "content": "Refresca tus espacios con el Ventilador Samurai Turbo Silence Maxx 3 en 1, un ventilador que combina versatilidad y eficiencia. Con su diseño en color negro, este ventilador no solo es funcional, sino también elegante. Disfruta de hasta 2 veces más flujo de aire y un funcionamiento hasta 4 veces más silencioso que otros ventiladores.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/638951/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/638951/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Ventilador Samurai Turbo Silence Maxx 3 en 1, 3 Velocidades, Negro"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     },
     {
         "id": 10,
         "title": "Juego de Ollas Batería de Cocina 10 Piezas Libre de PFOA Antiadherente Happy Talent Gris Imusa",
         "slug": "juego-de-ollas-bateria-de-cocina-10-piezas-libre-de-pfoa-antiadherente-happy-talent-gris-imusa",
         "description": "Este juego de ollas es perfecto para tu cocina. Con su diseño moderno y su material de calidad, es ideal para cualquier ocasión.",
-        "price": 374.900,
         "content": "¡Prepara tus mejores recetas con el Juego de Ollas / Batería de Cocina Happy Talent de Imusa! Este juego de 10 piezas antiadherentes en color gris es perfecto para cualquier cocina. Con este juego, podrás cocinar tus platillos favoritos de manera fácil y eficiente.",
-        "thumbnail": "https://media.falabella.com/sodimacCO/455376/w=1036,h=832,f=webp,fit=contain,q=85"
+        "thumbnail": {
+            "url": "https://media.falabella.com/sodimacCO/455376/w=1036,h=832,f=webp,fit=contain,q=85",
+            "alt": "Juego de Ollas Batería de Cocina 10 Piezas Libre de PFOA Antiadherente Happy Talent Gris Imusa"
+        },
+        "publishedAt": "2024-06-01T12:00:00Z",
+        "autor": "Santiago Rodríguez"
     }
 ]
