@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     siteName: "SODIMAC Artículos",
     title: "SODIMAC",
     type: "website",
+    locale: "es_CO",
     url: "https://sodimac-tau.vercel.app",
     images: [
       {
@@ -49,8 +50,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <TopMenu />
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <TopMenu />
+        {children}
+      </body>
     </html>
   );
 }
