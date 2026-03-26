@@ -14,9 +14,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SODIMAC",
-  description: "Tienda virtual de productos para el hogar",
+  metadataBase: new URL("https://sodimac-tau.vercel.app"),
+  title: {
+    default: "SODIMAC",
+    template: "%s | Artículos de SODIMAC"
+  },
+  description: "Plataforma de artículos de SODIMAC",
+
+  openGraph: {
+    siteName: "SODIMAC Artículos",
+    title: "SODIMAC",
+    type: "website",
+    url: "https://sodimac-tau.vercel.app",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SODIMAC Artículos"
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
+
 
 export default function RootLayout({
   children,
@@ -25,7 +49,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <TopMenu/>
+      <TopMenu />
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
