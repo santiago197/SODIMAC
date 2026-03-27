@@ -5,12 +5,20 @@ import { Metadata } from "next"
 import { notFound } from "next/navigation"
 
 type Props = {
-    params: {
-        slug: string
-    }
+    params: Promise<{ slug: string }>
+}
+
+type ArticleJsonLD ={
+    "@context": string;
+    "@type": string;
+    headline: string;
+    description: string;
+    image: string;
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const articulo = await obtenerArticulosPorSlug(params.slug);
+    const slug = (await params).slug
+
+    const articulo = obtenerArticulosPorSlug(slug);
 
     if (!articulo) {
         return {}
@@ -41,12 +49,27 @@ export default async function ArticuloDetailPage({
     params: Promise<{ slug: string }>
 }) {
     const { slug } = await params
-    const articulo = obtenerArticulosPorSlug(slug);
+    const articulo = await obtenerArticulosPorSlug(slug);
     if (!articulo) {
         notFound();
     }
+
+    const jsonLd: ArticleJsonLD = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: articulo.title,
+        description: articulo.description,
+        image: articulo.thumbnail.url
+    };
+
     return (
         <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(jsonLd),
+                }}
+            />
             <DetailArticulo articulo={articulo} />
         </main>
     );

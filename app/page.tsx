@@ -14,6 +14,7 @@ export const metadata: Metadata = {
         url: "/",
     }
 }
+
 export default function Home() {
   const articulos = obtenerArticulos(3);
 
