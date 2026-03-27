@@ -34,5 +34,5 @@ pnpm dev
 # Consideraciones SEO 
 - Utiliza generateMetadata por que es dinámico por contenido, evitando inconsistencias en URls relativas
 - OpenGraph por página, lo que mejora la visualización al compartir enlaces 
-- Se usa único <h1> por página y <h2> para encabezados secundarios, facilitando la comprensión paa los motores de búsqueda. 
+- Se usa único *h1* por página y *h2* para encabezados secundarios, facilitando la comprensión paa los motores de búsqueda. 
 - Si un slug no existe se ejecuta notFound() y muestra la página 404
