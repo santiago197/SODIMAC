@@ -4,7 +4,7 @@ export const openGraphBase: NonNullable<Metadata['openGraph']> = {
     siteName: "SODIMAC Artículos",
     "type": "website",
     "locale": "es_CO",
-    url: "https://sodimac-tau.vercel.app",
+    url: "https://sodimac-five.vercel.app",
     images: [
         {
             url: "/og-image.png",

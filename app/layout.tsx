@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sodimac-tau.vercel.app"),
+  metadataBase: new URL("https://sodimac-five.vercel.app"),
   title: {
     default: "SODIMAC",
     template: "%s | Artículos de SODIMAC"
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "SODIMAC",
     type: "website",
     locale: "es_CO",
-    url: "https://sodimac-tau.vercel.app",
+    url: "https://sodimac-five.vercel.app",
     images: [
       {
         url: "/og-image.png",
