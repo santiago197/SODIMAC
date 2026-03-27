@@ -49,7 +49,7 @@ export default async function ArticuloDetailPage({
     params: Promise<{ slug: string }>
 }) {
     const { slug } = await params
-    const articulo = await obtenerArticulosPorSlug(slug);
+    const articulo = obtenerArticulosPorSlug(slug);
     if (!articulo) {
         notFound();
     }

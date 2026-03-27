@@ -1,5 +1,5 @@
 import { obtenerArticulos } from "@/lib/articulos";
-import { Metadata, MetadataRoute } from "next";
+import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const articulos = obtenerArticulos();
