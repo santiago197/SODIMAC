@@ -1,6 +1,9 @@
 # SODIMAC
 Se construyó un sitio web de artículos para una empresa de contenido, cuyo objetivo es posicionar el sitio de artículos informativos orientado a tráfico orgánico desde Google. 
 
+El sitio web se encuentra publicado en vercel en el siguiente enlace.
+https://sodimac-five.vercel.app/
+
 # Prerequisitos 
 - Node.js 18+
 - pnpm instalado
